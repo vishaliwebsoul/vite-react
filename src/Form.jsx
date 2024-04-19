@@ -27,7 +27,7 @@ export default function Form() {
             />
             <div className='w-full text-start'>
                 <button onClick={handleReset}
-                    className='bg-pink-600 px-5 py-2 text-white rounded-full'><FontAwesomeIcon icon={faArrowsRotate} className='me-2' />
+                    className='sm:text-base text-sm bg-pink-600 px-5 py-2 text-white rounded-full'><FontAwesomeIcon icon={faArrowsRotate} className='me-2' />
                     Reset</button>
             </div>
             <div className='bg-neutral-900 mt-5 p-4 rounded'>
